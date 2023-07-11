@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+  background-color: aliceblue;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #857DFD;
+  padding: 10px 0px;
+}
+
+.logo img{
+  height: 90px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  background-color: #857DFD;
+  border-radius: 0px 0px 50px 50px;
+}
+
+.navbar a{
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 5px 10px;
+  padding: 5px 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+  transition-duration: 0.5s;
+  border:2px solid #857DFD;
+}
+
+.navbar a:hover{
+  /* background-color: white; */
+  color: white;
+  border:2px dashed white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0px #4d42bd ;
+
+}
+
+.intro{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px 0px ;
+}
+
+.left{
+
+}
+.left h1{
+  font-size: 60px;
+  margin:20px 0px;
+}
+.left p{
+  font-size: 30px;
+  margin:10px 0px;
+}
+.left button{
+  outline: none;
+  border: none;
+  font-family:  "Comfortaa", cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin:20px 10px;
+  padding: 16px 30px;
+  border-radius: 40px;
+  border: 2px solid #857DFD;
+  background-color: #857DFD;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.7s ;
+
+}
+
+.left button:hover{
+  background-color: white;
+  border: 2px dashed #857DFD;
+  box-shadow: 5px 5px 0px #857DFD;
+  color: black;
+} 
+.right{
+
+}
+
+.right img{
+  height: 400px;
+}
+
+.educational-details, .skills, .contact, .socials{
+  display: flex;
+  flex-direction: column;
+  margin-top:40px;
+}
+
+.educational-details h2 , .skills h2, .contact h2, .socials h2{
+  align-self: center;
+  margin: 20px 0px;
+  color: orangered;
+  font-size: 25px;
+}
+
+.courses, .names{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+#box{
+  border: 2px solid #857DFD;
+  box-shadow: -8px -8px 0px #857DFD;
+  border-radius: 20px;
+  height: 130px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition-duration: 0.7s;
+  background-color: white;
+}
+
+#box:hover, #box2:hover{
+  box-shadow: 8px 8px 0px #857DFD;
+  border: 2px dashed #857DFD;
+
+}
+
+#box h5 {
+  font-size: 20px;
+  margin:10px;
+}
+
+#box p{
+  font-size: 20px;
+}
+
+#box2{
+  border: 2px solid #857DFD;
+  box-shadow: -8px -8px 0px #857DFD;
+  border-radius: 20px;
+  height: 100px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition-duration: 0.7s;
+  background-color: white;
+}
+
+#box2 h3{
+  font-size: 30px;
+  
+}
+
+
+
+.contacts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0px;
+}
+.one img{
+  height: 400px;
+}
+
+.two{
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
+  border: 2px dashed #857DFD;
+  box-shadow: 0px 0px 0px 5px white,0px 0px 0px 10px #857DFD;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+
+}
+
+
+.two input, .two button{
+  outline:none;
+  border:none;
+  border: 2px solid #857DFD;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+::placeholder{
+  color: #857DFD;
+}
+
+.two input:focus{
+  box-shadow: 5px 5px 0px #857DFD;
+  border: 2px dashed #857DFD;
+}
+
+.two button{
+  margin-top: 40px;
+  background-color: #857DFD;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #857DFD;
+  transition-duration: 0.4s;
+}
+
+.two button:hover{
+  background-color: white;
+  color: black ;
+  border: 2px dashed #857DFD;
+  box-shadow: 5px 5px 0px #857DFD;
+  cursor: pointer;
+}
+
+.two h4{
+  font-size: 25px;
+  color: orangered;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb , .insta, .tg, .li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  cursor: pointer;
+  color: black;
+  border: 2px solid #857DFD;
+  border-radius: 20px;
+  padding: 15px 8px;
+  background-color: white;
+  box-shadow: -7px -7px 0px #857DFD;
+  width: 120px;
+  height: 120px;
+  transition-duration: 0.5s;
+}
+
+.fb:hover, .insta:hover, .tg:hover , .li:hover{
+  box-shadow: 7px 7px 0px #857DFD;
+  border: 2px dashed #857DFD;
+}
+
+
+.fb img, .insta img, .tg img, .li img {
+  height: 50px;
+  margin: 5px;
+  margin: 10px;
+}
+
+.connect{
+  background-color:#141C3A;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  margin: 20px 350px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  border: 2px dashed white;
+  box-shadow: 0px 0px 0px 8px #141C3A, 0px 0px 0px 12px aliceblue;
+}
+
+.connect p{
+  font-size: 25px;
+}
+
+.connect button{
+  outline:none;
+  border: none;
+  border: 2px solid #5BE9B9;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-family:"Comfortaa", cursive ;
+  border-radius: 50px;
+  background-color: #141C3A;
+  color: white;
+  transition: 0.5s linear;
+}
+
+.connect button:hover{
+  color: black;
+  background-color: #5BE9B9;
+  cursor: pointer;
+}
+
+.bg{
+  height: 150px;
+  width: 100%;
+  background-color: #857DFD;
+  position: absolute;
+  top: 2130px;
+  z-index: -1;
+  border-radius: 50px 50px 0px 0px;
+}
