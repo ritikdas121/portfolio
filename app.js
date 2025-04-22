@@ -25,7 +25,7 @@ const portfolioData = {
       title: "IPL 2025 Match Display",
       description: "A responsive web app to display IPL match details with team filtering, built using JavaScript DOM manipulation.",
       technologies: "HTML, CSS, JavaScript",
-      link: "https://github.com/"
+      link: "https://ipl-fixtures.netlify.app/"
     },
     {
       title: "Portfolio Website",
