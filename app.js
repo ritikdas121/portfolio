@@ -4,13 +4,13 @@ const portfolioData = {
       degree: "Bachelor of Computer Application",
       institution: "SKM University, Dumka",
       year: "2020 - 2023",
-      description: "CGPA 8.3"
+      description: "CGPA 8.71"
     },
     {
       degree: "Master in Computer Application",
       institution: "SKM University, Dumka",
       year: "2023 - 2025",
-      description: "CGPA 8.0"
+      description: "CGPA 8.6"
     }
   ],
   skills: [
