@@ -39,7 +39,7 @@ const portfolioData = {
       role: "Wordpress Developer",
       company: "MFactor Consultancy Pty Ltd",
       duration: "July 2024 - Now",
-      description: "Developed responsive web designs using Elementor Pro."
+      description: "Developed responsive WordPress websites using Elementor Pro, worked with designers to build pages, improved SEO, and fixed bugs for a better user experience."
     },
   ],
   contact: [
