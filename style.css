@@ -1,3 +1,7 @@
+:root{
+  --accent-color: rgb(164, 255, 26);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +26,11 @@
     padding: 40px 0;
   }
 
+  header img{
+    height: 150px;
+    border-radius: 50%;
+ }
+
   header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -42,7 +51,7 @@
 }
 
 section:hover{
-      border: 1px solid rgb(164, 255, 26);
+      border: 1px solid var(--accent-color);
   }
 
   section h2 {
@@ -50,7 +59,7 @@ section:hover{
     font-weight: 600;
     margin-bottom: 20px;
     color: #FFFFFF;
-    color: rgb(164, 255, 26);
+    color: var(--accent-color);
   }
 
   .education-item, .project-item, .experience-item {

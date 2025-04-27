@@ -6,7 +6,7 @@ A minimal, dark-themed portfolio showcasing my skills, education, projects, work
 - Dark theme with rounded divs and Inter font
 - Modular JavaScript data for easy updates
 - Responsive design for mobile and desktop
-- Sections: Education, Skills, Projects, Experience, Contact
+- Sections: Experience, Education, Skills, Projects, Resume and Contact
 
 ## Setup
 1. Clone the repo:
