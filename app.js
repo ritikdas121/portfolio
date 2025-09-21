@@ -1,19 +1,19 @@
 const portfolioData = {
   education: [
     {
-      degree: "Bachelor of Computer Applications",
-      institution: "SKM University, Dumka",
-      year: "2020 - 2023",
-      description: "CGPA 8.71",
-    },
-    {
       degree: "Master of Computer Applications",
       institution: "SKM University, Dumka",
       year: "2023 - 2025",
       description: "CGPA 8.6",
     },
+    {
+      degree: "Bachelor of Computer Applications",
+      institution: "SKM University, Dumka",
+      year: "2020 - 2023",
+      description: "CGPA 8.71",
+    },
   ],
-  skills: ["HTML", "CSS", "JavaScript", "Java", "Figma"],
+  skills: ["HTML", "CSS", "JavaScript", "Java"],
   projects: [
     {
       title: "Sunil Das Sweets – Website Project",
