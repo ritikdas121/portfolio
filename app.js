@@ -2,15 +2,15 @@ const portfolioData = {
   education: [
     {
       degree: "Master of Computer Applications",
-      institution: "SKM University, Dumka",
+      institution: "Sido Kanhu Murmu University, Dumka",
       year: "2023 - 2025",
       description: "CGPA 8.6",
     },
     {
       degree: "Bachelor of Computer Applications",
-      institution: "SKM University, Dumka",
+      institution: "Sido Kanhu Murmu University, Dumka",
       year: "2020 - 2023",
-      description: "CGPA 8.71",
+      description: "CGPA 8.7",
     },
   ],
   skills: ["HTML", "CSS", "JavaScript", "Java"],
